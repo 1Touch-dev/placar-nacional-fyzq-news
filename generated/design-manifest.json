@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "designId": "premium-magazine-a-1785410790899",
+  "archetype": "brief-composed",
+  "components": [
+    "header",
+    "breakingNews",
+    "featuredCard",
+    "standardCard",
+    "footer"
+  ],
+  "layouts": [
+    "brief-composed",
+    "section-led-grid",
+    "longform-focused",
+    "editorial-results"
+  ],
+  "compiledAt": "2026-08-04T10:24:56.184Z",
+  "sourceHash": "-6afd4380"
+}

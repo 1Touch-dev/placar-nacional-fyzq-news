@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "recipe-v1",
+  "id": "brief-premium-magazine-a-1785410790899-a",
+  "page": "homepage",
+  "homepageLayout": "brief-composed",
+  "rhythmId": "rhythm-brief",
+  "grid": "main-sidebar",
+  "slots": [
+    {
+      "id": "lead",
+      "kind": "hero",
+      "block": "HeroLead",
+      "span": "full",
+      "limit": 1,
+      "options": {
+        "source": "brief"
+      }
+    },
+    {
+      "id": "latest-rail",
+      "kind": "ranked-rail",
+      "block": "RankedRail",
+      "span": "full",
+      "limit": 5,
+      "options": {}
+    },
+    {
+      "id": "ultimas",
+      "kind": "stream",
+      "block": "HorizontalStream",
+      "limit": 8,
+      "options": {}
+    },
+    {
+      "id": "nacional",
+      "kind": "section-pair",
+      "block": "DualSection",
+      "limit": 2,
+      "options": {}
+    },
+    {
+      "id": "mais-lidas",
+      "kind": "most-read",
+      "block": "MostReadPanel",
+      "limit": 5,
+      "options": {}
+    },
+    {
+      "id": "newsletter",
+      "kind": "newsletter",
+      "block": "NewsletterCard",
+      "options": {}
+    }
+  ]
+}

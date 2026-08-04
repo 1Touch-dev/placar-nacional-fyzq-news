@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+/**
+ * Design Tokens - Auto-generated
+ * Design: Classic Trust Design System
+ * Archetype: brief-composed
+ * Version: 1.0.0
+ * Generated: 2026-08-04T10:24:56.183Z
+ */
+
+:root {
+  --color-primary: #0B3D2E;
+  --color-secondary: #F5A623;
+  --color-accent: #E11D48;
+  --color-background: #FFFFFF;
+  --color-surface: #F5F5F5;
+  --color-text: #121417;
+  --color-muted-text: #66706A;
+  --color-success: #28A745;
+  --spacing-0: 8px;
+  --spacing-1: 16px;
+  --spacing-2: 24px;
+  --spacing-3: 32px;
+  --spacing-4: 48px;
+  --spacing-5: 64px;
+  --spacing-6: 96px;
+  --spacing-7: 128px;
+  --radius-0: 0px;
+  --radius-1: 2px;
+  --radius-2: 4px;
+  --radius-3: 8px;
+  --font-display: 'Bebas Neue';
+  --font-heading: 'Source Sans 3';
+  --font-body: 'Source Sans 3';
+  --font-article: 'IBM Plex Sans';
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-elevated: 0 4px 16px rgba(0,0,0,0.08);
+  --border-subtle: 1px solid rgba(15,23,42,0.08);
+  --breakpoint-mobile: 390px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-wide: 1920px;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Typography Base */
+body {
+  font-family: var(--font-body), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-weight: var(--font-weight-regular);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: var(--font-weight-bold);
+}
+
+/* Utility Classes */
+.surface {
+  background-color: var(--color-surface);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-muted {
+  color: var(--color-muted-text);
+}
+
+.card {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-card);
+}
+
+.card-elevated {
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Responsive Utilities */
+@media (max-width: var(--breakpoint-mobile)) {
+  .hide-mobile { display: none !important; }
+}
+
+@media (min-width: var(--breakpoint-tablet)) {
+  .hide-desktop { display: none !important; }
+}
